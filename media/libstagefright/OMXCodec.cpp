@@ -50,8 +50,6 @@ Copyright (c) 2012, Code Aurora Forum. All rights reserved.
 
 #ifdef QCOM_HARDWARE
 #include <gralloc_priv.h>
-
-static const int OMX_QCOM_COLOR_FormatYUV420PackedSemiPlanar64x32Tile2m8ka = 0x7FA30C03;
 #endif
 
 namespace android {
