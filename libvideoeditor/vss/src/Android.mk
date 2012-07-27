@@ -83,7 +83,7 @@ LOCAL_C_INCLUDES += \
     $(TOP)/frameworks/native/services/audioflinger \
     $(TOP)/system/media/audio_effects/include \
     $(TOP)/system/media/audio_utils/include \
-    $(TOP)/vendor/qcom/opensource/omx/mm-core/omxcore/inc
+    $(TOP)/hardware/qcom/media/mm-core/inc
 
 LOCAL_SHARED_LIBRARIES += libdl
 
