@@ -370,7 +370,6 @@ CameraService::Client::Client(const sp<CameraService>& cameraService,
         const sp<ICameraClient>& cameraClient,
         const sp<CameraHardwareInterface>& hardware,
         int cameraId, int cameraFacing, int clientPid) {
-  cameraId = 1;
     int callingPid = getCallingPid();
     LOG1("Client::Client E (pid %d, id %d)", callingPid, cameraId);
 
